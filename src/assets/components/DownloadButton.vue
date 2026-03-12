@@ -41,4 +41,19 @@ button svg {
     height: 2rem;
     width: 2rem;
 }
+
+@media (max-width: 800px) {
+    button {
+        font-size: .8rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: .25rem .5rem;
+        gap: .5rem;
+    }
+
+    button svg {
+        height: 1.5rem;
+        width: 1.5rem;
+    }
+}
 </style>
