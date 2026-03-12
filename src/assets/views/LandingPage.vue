@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import LandingPage from './assets/views/LandingPage.vue';
+
 </script>
 
 <template>
-  <LandingPage />
+    <h1>Finance App</h1>
 </template>
 
 <style scoped></style>

@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 16px;
+  font-family: var(--main-font);
+  width: 100%;
+  height: auto;
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+/* Minor third font scale */
+h1 {
+  font-size: 2.074rem;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.728rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.44rem;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+
+small,
+.caption {
+  font-size: 0.833rem;
+  font-weight: 500;
+}
+
+/* --- Adaptación Desktop (Perfecta para monitores) --- */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2.986rem;
+  }
+
+  h2 {
+    font-size: 2.488rem;
+  }
+
+  h3 {
+    font-size: 2.074rem;
+  }
+
+  h4 {
+    font-size: 1.728rem;
+  }
+
+  h5 {
+    font-size: 1.44rem;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+}
+
+/* Disable hovers on touch devices */
+@media (hover: none) {
+
+  a:hover,
+  button:hover,
+  input:hover,
+  [role="button"]:hover {
+    background-color: inherit;
+    color: inherit;
+    filter: none;
+    transform: none;
+    box-shadow: none;
+  }
+}
