@@ -23,7 +23,7 @@ button {
     background-color: transparent;
     border: solid 2px var(--accent-green);
     border-radius: 10px;
-    padding: .25rem .5rem;
+    padding: .5rem .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
