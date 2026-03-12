@@ -1,9 +1,9 @@
 <script setup lang="ts">
-
+import LandingHeader from '../components/LandingHeader.vue';
 </script>
 
 <template>
-    <h1>Finance App</h1>
+    <LandingHeader />
 </template>
 
 <style scoped></style>
