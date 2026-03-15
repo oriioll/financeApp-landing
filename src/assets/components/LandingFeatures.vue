@@ -9,9 +9,9 @@
                 <p>Keep a clean and organized record of every cent. Categorize your spending in seconds.</p>
             </div>
             <hr>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 16 16">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="#34D399"
-                    d="M14.5 4H2.38a1 1 0 0 1-1.19-.982v-.019L14 2.5V1.31A1.18 1.18 0 0 0 12.684.001L1.31 1.85A2 2 0 0 0 0 3.727v10.772a1.5 1.5 0 0 0 1.5 1.5h13a1.5 1.5 0 0 0 1.5-1.5v-9.01l.001-.041a1.45 1.45 0 0 0-1.45-1.45l-.053.001zM13 11a1.5 1.5 0 1 1 .001-3.001A1.5 1.5 0 0 1 13 11" />
+                    d="M4.616 19q-.691 0-1.153-.462T3 17.384V6.616q0-.691.463-1.153T4.615 5h14.77q.69 0 1.152.463T21 6.616v10.769q0 .69-.463 1.153T19.385 19zM4 11.192h16V8.808H4z" />
             </svg>
         </article>
         <article class="cloud">
@@ -37,7 +37,7 @@
                     design.</p>
             </div>
             <hr>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="-1 -2 24 24">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
                 <path fill="#34D399"
                     d="m15.092 8.02l-2.829-2.828L16.506.95a1 1 0 0 1 1.414 0l1.415 1.414a1 1 0 0 1 0 1.414l-4.243 4.243zm-1.414 1.415l-9.9 9.9a1 1 0 0 1-1.414 0L.95 17.92a1 1 0 0 1 0-1.414l9.9-9.9zM8.728.243l1.393.704l1.435-.704l-.679 1.46l.68 1.368l-1.384-.664l-1.445.664l.689-1.42zm9.9 7.07l1.393.705l1.435-.704l-.68 1.46l.68 1.368l-1.384-.664l-1.445.664l.69-1.42l-.69-1.408z" />
             </svg>
@@ -77,6 +77,8 @@
     height: 100%;
 }
 
+
+
 .grid article:hover {
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(52, 211, 153, 0.3);
@@ -98,6 +100,7 @@ article hr {
     height: 100%;
 }
 
+
 h3 {
     color: var(--accent-green);
     font-weight: 700;
@@ -106,6 +109,11 @@ h3 {
 }
 
 @media (max-width: 800px) {
+    article p {
+        font-size: .8rem;
+        line-height: 1.3;
+    }
+
     .grid {
         width: 90%;
         padding-top: 8rem;
@@ -114,8 +122,17 @@ h3 {
     }
 
     .grid article {
-        padding: .75rem 1rem;
+        padding: .5rem 1rem;
         gap: 2rem;
+    }
+
+    article hr {
+        width: 6px;
+        border-radius: 10px;
+        border: none;
+        color: var(--accent-green);
+        background: var(--accent-green);
+        height: 95%;
     }
 }
 </style>

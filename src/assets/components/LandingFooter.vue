@@ -12,7 +12,7 @@ import DownloadButton from './DownloadButton.vue';
                     GitHub</a>
             </article>
         </aside>
-        <DownloadButton />
+        <DownloadButton class="btn" />
     </footer>
 </template>
 
@@ -23,6 +23,7 @@ footer {
     align-items: center;
     width: 100%;
     padding: 2rem;
+    gap: 2rem;
 }
 
 footer .text {
@@ -31,6 +32,10 @@ footer .text {
     justify-content: center;
     align-items: flex-start;
     gap: 1.5rem;
+}
+
+footer .btn {
+    align-self: flex-end;
 }
 
 .githubLinks {
@@ -55,8 +60,15 @@ footer .mainLink {
 
 @media (max-width: 800px) {
 
-    footer .mainLink,
     .githubLinks a {
+        font-size: .7rem;
+    }
+
+    .githubLinks {
+        gap: .5rem;
+    }
+
+    footer .mainLink {
         font-size: .8rem;
     }
 }
