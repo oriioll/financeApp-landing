@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <section class="grid">
+    <section id="features-section" class="grid">
         <article class="tracking">
             <div class="text">
                 <h3>Visual movements</h3>
@@ -66,6 +66,14 @@
     justify-content: center;
     align-items: flex-start;
     gap: 2rem;
+    transition: all 0.3s ease-out;
+}
+
+.grid article:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(52, 211, 153, 0.3);
+    border-color: rgba(52, 211, 153, 1);
+    filter: brightness(1.1);
 }
 
 article svg {

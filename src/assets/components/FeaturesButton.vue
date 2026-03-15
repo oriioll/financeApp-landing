@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import { scrollToId } from '@/assets/util/util.ts'
 </script>
 
 <template>
-    <button>Features</button>
+    <button @click="scrollToId('features-section')">Features</button>
 </template>
 
 <style scoped>

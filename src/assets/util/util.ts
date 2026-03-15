@@ -21,3 +21,17 @@ export const downloadFromPath = (path: string) => {
 export const openLink = (url: string): void => {
   window.open(url, '_blank')
 }
+
+/**
+ * Arrow function that scrolls to an id
+ * @param id where you want to scroll to
+ * @author Oriol Plazas León
+ * @since 15/03/2026
+ * @see window()
+ */
+export const scrollToId = (id: string) => {
+  const section = document.getElementById(id)
+  if (section) {
+    section.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
+}
