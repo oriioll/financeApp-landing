@@ -4,7 +4,7 @@ import FeaturesButton from './FeaturesButton.vue';
 </script>
 
 <template>
-    <main class="hero">
+    <section class="hero">
         <section class="text">
             <h1>Simplify your <span class="green">spending.</span></h1>
             <p>A minimalist financial tracker built with <strong class="green">Kotlin</strong> and <strong
@@ -18,7 +18,7 @@ import FeaturesButton from './FeaturesButton.vue';
         <section class="mockup">
             <img src="/public/images/financeMockup.webp" alt="">
         </section>
-    </main>
+    </section>
 </template>
 
 <style scoped>
