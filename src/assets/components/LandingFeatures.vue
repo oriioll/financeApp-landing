@@ -57,16 +57,24 @@
 
 .grid article {
     background-color: transparent;
-    border: solid 2px var(--accent-green);
+    border: solid 3px var(--accent-green);
     border-radius: 10px;
     padding: 1rem;
     color: var(--light);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     gap: 2rem;
     transition: all 0.3s ease-out;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
 }
 
 .grid article:hover {
@@ -82,7 +90,7 @@ article svg {
 }
 
 article hr {
-    width: 4px;
+    width: 6px;
     border-radius: 10px;
     border: none;
     color: var(--accent-green);
