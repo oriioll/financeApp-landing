@@ -3,7 +3,7 @@ import { downloadFromPath } from "@/assets/util/util"
 </script>
 
 <template>
-    <button @click="downloadFromPath('/public/apk/finance-app-v20.apk')">
+    <button @click="downloadFromPath('/public/apk/finance-app.apk')">
         Download for
         <svg preserveAspectRatio="xMidYMid" viewBox="0 0 256 150">
             <path fill="#34A853"
